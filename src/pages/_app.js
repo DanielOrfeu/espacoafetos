@@ -12,21 +12,23 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>Espaço Afetos</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="description"
+          content="Site de serviços da clínica Espaço Afetos. Serviços de acompanhamento de saúde mental, comportamental, autismo, TDAH, ABA, Denver, fonoaudiologia e neuropsicologia."
+        />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>
       <VStack
         bgGradient={"linear(to-bl, blue.200, white)"}
         align={"flex-start"}
         minH={"100vh"}
-        w={"100vw"}
+        w={"100%"}
         p={0}
         m={0}
-        overflowX={"hidden"}
-        overflowY={"scroll"}
         color={"black"}
       >
         <Flex flex={1}>
-          <Component {...pageProps} />;
+          <Component {...pageProps} />
         </Flex>
         <Footer2 />
       </VStack>

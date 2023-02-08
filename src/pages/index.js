@@ -5,7 +5,7 @@ import { Stack, VStack, Text, Image } from "@chakra-ui/react";
 
 function Home() {
   return (
-    <VStack w={"100vw"}>
+    <VStack w={"100%"}>
       <Stack flex={1} w={"100%"} p={6} gap={6}>
         <Stack
           w={"100%"}

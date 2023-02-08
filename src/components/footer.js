@@ -22,6 +22,7 @@ function Footer() {
       alignItems={"center"}
       flexDirection={["column", "column", "column", "row"]}
       shadow={"inner"}
+      wordBreak={"break-word"}
     >
       <VStack flex={1}>
         <HStack>
@@ -57,9 +58,8 @@ function Footer() {
       <VStack flex={1}>
         <VStack>
           <Text>
-            Consultas particulares ou por encamihamento do plano de saúde:
+            Consultas particulares ou por reembolso de plano de saúde.
           </Text>
-          <Image height={"60px"} src="/unimed.png" />
         </VStack>
       </VStack>
     </Stack>
