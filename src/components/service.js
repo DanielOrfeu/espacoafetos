@@ -46,7 +46,9 @@ function Service({ name, img, description } = props) {
           <ModalHeader>{name}</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            <Text>{description}</Text>
+            {description.split("\n").map((txt, i) => {
+              return <Text key={i}>{txt}</Text>;
+            })}
           </ModalBody>
           <ModalFooter>
             <Button onClick={onClose}>Fechar</Button>
