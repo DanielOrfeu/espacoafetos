@@ -12,6 +12,8 @@ function Home() {
           direction={["column", "column", "column", "row"]}
           alignItems={"center"}
           justifyContent={"center"}
+          p={8}
+          gap={8}
         >
           <Image w={["100%", "70%", "50%", "500px"]} src="/logohere.png" />
           <VStack textAlign={"center"}>
@@ -24,7 +26,7 @@ function Home() {
           </VStack>
         </Stack>
 
-        <VStack flex={1} justifyContent={"center"} textAlign={"center"}>
+        <VStack flex={1} justifyContent={"center"} gap={8} textAlign={"center"}>
           <Text as={"b"} fontSize={["xl", "2xl", "2xl", "2xl", "2xl", "3xl"]}>
             NOSSOS SERVIÇOS: PSICOLOGIA - NEUROPSICOLOGIA - FONOAUDIOLOGIA
           </Text>
@@ -55,10 +57,3 @@ function Home() {
 }
 
 export default Home;
-
-// Acompanhamento Psicológico
-// Modelo Denver de Intervenção Precoce
-// Intervenção na Perspectiva ABA
-// Intervenção Neuropsicológica
-// Avaliação Neuropsicológica
-// Avalição de Desenvolvimento
