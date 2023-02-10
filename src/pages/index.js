@@ -15,7 +15,7 @@ function Home() {
           p={8}
           gap={8}
         >
-          <Image w={["100%", "70%", "50%", "500px"]} src="/logohere.png" />
+          <Image w={["100%", "70%", "50%", "500px"]} src="/espacoafetos.png" />
           <VStack textAlign={"center"}>
             <Text fontSize={["2xl", "3xl"]}>SOBRE NÓS</Text>
             <Text fontSize={"xl"}>
@@ -49,6 +49,9 @@ function Home() {
               );
             })}
           </Stack>
+          <Text color={"grey"}>
+            Clique em algum dos nossos serviços para saber mais
+          </Text>
         </VStack>
       </Stack>
       <Footer />
