@@ -27,21 +27,27 @@ export default [
     img: "aba.png",
   },
   {
-    name: "Intervenção Neuropsicológica",
+    name: "Intervenção e Avaliação Neuropsicológica",
     description:
-      "A intervenção neuropsicológica neuropsicológica é um método estruturado que reúne um conjunto de técnicas com objetivos diferentes, como a melhora na participação e integração social, autopercepção das emoções e dos pensamentos e, ainda, um aumento de comportamentos adaptativos.",
+      "A intervenção neuropsicológica neuropsicológica é um método estruturado que reúne um conjunto de técnicas com objetivos diferentes, como a melhora na participação e integração social, autopercepção das emoções e dos pensamentos e, ainda, um aumento de comportamentos adaptativos. \n A Avaliação Neuropsicológica é um procedimento de investigação detalhado que tem como objetivo avaliar as funções cognitivas do indivíduo, tais como, atenção, memória, linguagem, entre outras. Além disso, o processo de avaliação também se concentra em aspectos sociais, emocionais e funcionais da pessoa.",
     img: "interNeuro.png",
-  },
-  {
-    name: "Avaliação Neuropsicológica",
-    description:
-      "A Avaliação Neuropsicológica é um procedimento de investigação detalhado que tem como objetivo avaliar as funções cognitivas do indivíduo, tais como, atenção, memória, linguagem, entre outras. Além disso, o processo de avaliação também se concentra em aspectos sociais, emocionais e funcionais da pessoa.",
-    img: "avaNeuro.png",
   },
   {
     name: "Avalição de Desenvolvimento",
     description:
       "A avaliação do desenvolvimento deve ser um processo contínuo de acompanhamento das atividades relativas ao potencial de cada indivíduo, com vistas à detecção precoce de desvios ou atrasos. Essa verificação pode ser realizada de forma sistematizada por meio de alguns testes e/ou escalas elaboradas para tal finalidade.",
     img: "desenv.png",
+  },
+  {
+    name: "Terapia Ocupacional",
+    description:
+      "A terapia ocupacional beneficia pessoas de todas as faixas etárias e que tenham alguma limitação ou incapacidade de realizar atividades do dia a dia. O terapeuta ocupacional trabalha a partir das habilidades e limitações de cada pessoa, criando junto do paciente novas formas de fazer o que ele quer e precisa, com a maior autonomia e independência possíveis.",
+    img: "terOcup.png",
+  },
+  {
+    name: "Psicomotricidade",
+    description:
+      "A psicomotricidade é uma técnica que tem como objetivo promover o desenvolvimento cognitivo e afetivo através da realização de movimentos organizados e integrados, podendo ser indicada para todas as pessoas, principalmente para crianças e adolescentes.",
+    img: "psicomotricidade.png",
   },
 ];

@@ -44,7 +44,7 @@ export default function App({ Component, pageProps }) {
     <ChakraProvider theme={myTheme}>
       <GlobalStyle />
       <VStack
-        bgGradient={"linear(to-bl, blue.200, white)"}
+        bgGradient={"linear(to-bl, #a4ccc9, white)"}
         align={"flex-start"}
         minH={"100vh"}
         w={"100%"}
