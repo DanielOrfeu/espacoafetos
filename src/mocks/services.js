@@ -56,4 +56,10 @@ export default [
       "A psicopedagogia é a área do conhecimento que estuda a aprendizagem do seres humanos. Essa ciência se dedica a compreender como os indivíduos aprendem, quais as dificuldades podem surgir nesse processo e como potencializar o aprendizado. \n Entender como uma pessoa aprende é importante para a construção das práticas de ensino e também para auxiliar aqueles que apresentam alguma dificuldade em adquirir novos conhecimentos. \nPara a psicopedagogia, a aprendizagem é um ato complexo, que envolve condições cognitivas, sociais e afetivas. Isso significa que além dos aspectos biológicos (algum distúrbio, como dislexia ou déficit de atenção, por exemplo), é preciso compreender qual é o contexto social e cultural e como são as relações familiares dos indivíduos.",
     img: "psicopedagogia.png",
   },
+  {
+    name: "Musicalização",
+    description:
+      "Auxilia na socialização, alfabetização, inteligência, capacidade inventiva, expressividade, coordenação motora e tato fino, percepção sonora; percepção espacial, raciocínio lógico e matemático e estética.",
+    img: "musicalizacao.png",
+  },
 ];
